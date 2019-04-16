@@ -1,0 +1,27 @@
+{
+  "name": "webpack-react-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "check-types": "tsc -p . --noEmit -w"
+  },
+  "author": "soarflat",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "16.8.13",
+    "@types/react-dom": "16.8.4",
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.4.3",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
